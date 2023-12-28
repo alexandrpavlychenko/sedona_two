@@ -1,0 +1,1 @@
+const mainNav=document.querySelector(".page-header__main-nav");mainNav.classList.remove("page-header__main-nav--opened");const mainNavToggle=document.querySelector(".page-header__main-nav-toggle");mainNavToggle.onclick=function(){mainNav.classList.toggle("page-header__main-nav--opened")};
